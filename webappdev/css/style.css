@@ -1,0 +1,161 @@
+body {
+	font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+	text-align: center;
+	text-shadow: 0 0 10px black;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: left;
+  }
+  
+  td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+	background-color: #e5e5e5;
+  }
+  
+  td:hover {
+	background-color: #d9d9d9;
+  }
+  
+  /* Center align the Action column */
+  th:nth-child(9),
+  td:nth-child(9) {
+	text-align: center;
+  }
+  
+  /* Adjust the width of the Action buttons */
+  .action-buttons button {
+	width: 80px;
+	pointer-events: auto;
+  }
+  
+  /* Add some spacing between the Action buttons */
+  .action-buttons button + button {
+	margin-left: 5px;
+  }
+  
+  .action-buttons {
+	display: flex;
+	overflow: hidden;
+	gap: 5px; /* Add this line to specify the gap between buttons */
+  }
+  
+  .action-buttons button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	white-space: nowrap; /* Prevent line breaks */
+	overflow: hidden; /* Hide overflowing text */
+	text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+	flex-shrink: 0; /* Prevent button from shrinking */
+  }
+
+  .action-buttons button:last-child {
+	margin-right: 12px; /* Apply right margin only to the previous buttons */
+  }
+  
+  .action-buttons button:hover {
+	background-color: #45a049;
+  }
+  
+  .add-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	color: white;
+  }
+  
+  .search-container {
+	text-align: center;
+	margin-bottom: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .search-container input[type="text"] {
+	padding: 6px 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 300px;
+	max-width: 100%;
+  }
+  
+  .popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 9999;
+  }
+  
+  .popup h2 {
+	margin-top: 0;
+  }
+  
+  .popup input[type="text"],
+  .popup input[type="number"],
+  .popup textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+  }
+  
+  .popup button {
+	padding: 8px 16px;
+	margin-right: 10px;
+  }
+  
+  .select-styling {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 200px;
+  }
+  
+  .select-styling::after {
+	content: "\25BC";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	pointer-events: none;
+  }
+  

@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  body {
+    background-image: url('../images/homebackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-container {
+    max-width: 500px; /* Increase the width */
+    width: 80%; /* Adjust the width to your preference */
+    padding: 40px; /* Increase the padding */
+    margin: 0 auto; /* Center the form */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-input,
+  .form-select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px; /* Increase the padding */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Increase the font size */
+  }
+  
+  .form-submit {
+    margin-top: 20px; /* Add some space between inputs and submit button */
+    text-align: center;
+  }
+  
+  .form-submit input[type="submit"],
+  .form-submit button.cancel-button {
+    padding: 12px 24px; /* Increase the padding */
+    font-size: 16px; /* Increase the font size */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-submit button.cancel-button {
+    background-color: #f44336;
+  }
+  

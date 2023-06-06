@@ -1,0 +1,147 @@
+#data-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #data-list th,
+  #data-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  #data-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  #data-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #data-list tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  #data-list tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 1px;
+  }
+  
+  .add-user-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-user-button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-user-button:active {
+    background-color: #3e8e41;
+  }
+  
+  .add-user-button:focus {
+    outline: none;
+  }
+  
+  
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form-submit {
+    text-align: center;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #dc3545;
+  }
+  
+  .cancel-button:active {
+    background-color: #c82333;
+  }
+  
+  .cancel-button:focus {
+    outline: none;
+  }
+  
+
